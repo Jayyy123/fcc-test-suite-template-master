@@ -1,0 +1,36 @@
+body{
+    padding: 0.5rem 0rem;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #333;
+    background-color: #EEE;
+}
+
+#main #title{
+    text-align: center;
+}
+#img-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#fff;
+    margin: 0.5rem;
+    padding: 1rem;
+}
+
+#img-div #img-caption{
+    text-align: center;
+    margin: 2.5rem auto 0rem auto;
+}
+
+
+#image{
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
