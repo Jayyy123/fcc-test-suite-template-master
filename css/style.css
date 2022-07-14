@@ -1,0 +1,145 @@
+body{
+    padding: 0.5rem 0rem;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #333;
+    background-color: #EEE;
+}
+
+#main #title{
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.4px;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.3px;
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.4px;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Open sans', sans-serif;
+    letter-spacing: 0.3px;
+}
+
+ul {
+    font-family: 'Open sans', sans-serif;
+    letter-spacing: 0.3px;
+}
+
+#img-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#fff;
+    margin: 0.5rem;
+    padding: 1rem;
+}
+
+#img-div #img-caption{
+    text-align: center;
+    padding: 2.5rem 2rem 0rem 2rem;
+    font-family: 'Open sans', sans-serif;
+    letter-spacing: 0.3px;
+}
+
+
+#image{
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+#tribute-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#tribute-info ul {
+    width: 50%;
+    letter-spacing: 0.2px;
+}
+
+li {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#citation-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+}
+
+#citation-div p {
+    align-self: center;
+    width: 100%;
+}
+
+#citation-div h4 {
+    text-align: center;
+    width: 100%;
+    align-self: center;
+}
+
+
+@media only screen and (max-width: 700px){
+
+    #tribute-info ul {
+        width: 80%;
+        letter-spacing: 0.2px;
+    }
+    
+    #citation-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        width: 70%;
+    }
+
+    #citation-div p {
+        align-self: center;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+
+    #tribute-info ul {
+        width: 60%;
+        letter-spacing: 0.2px;
+    }
+    
+    #citation-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        width: 70%;
+    }
+
+    #citation-div p {
+        align-self: center;
+        width: 80%;
+    }
+}
